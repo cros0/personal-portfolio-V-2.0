@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills — Mohamed Abbas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow"></div>
+  <header class="navbar"><div class="container nav-container">
+    <a href="index.html" class="nav-brand"><span class="brand-dot"></span><span data-i18n="nav.name">Mohamed Abbas</span></a>
+    <ul class="nav-links"><li><a href="about.html" data-i18n="nav.about">About</a></li><li><a href="experience.html" data-i18n="nav.exp">Experience</a></li><li><a href="skills.html" class="active" data-i18n="nav.skills">Skills</a></li><li><a href="projects.html" data-i18n="nav.projects">Projects</a></li><li><a href="resume.html" data-i18n="nav.resume">Resume</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul>
+    <div class="nav-controls"><button class="lang-toggle" id="langToggle">ع</button><button class="nav-hamburger" id="navHamburger">☰</button></div>
+  </div></header>
+  <main>
+    <section class="section"><div class="container">
+      <p class="section-eyebrow" data-i18n="skills.eyebrow">Expertise</p>
+      <h1 class="section-title" data-i18n="skills.title">Skills &amp; Capabilities</h1>
+      <p class="section-subtitle" data-i18n="skills.subtitle">Core technical expertise, modern AI tools, and professional attributes</p>
+      <hr class="section-divider">
+      <div class="skills-grid">
+        <!-- AI & Developer Tools -->
+        <div class="skill-card"><h3 class="skill-card-title"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><span data-i18n="skills.ai.title">AI &amp; Developer Tools</span></h3><p class="skill-desc" data-i18n="skills.ai.desc">Growing skill in modern AI-assisted workflows for planning, development, and research.</p><div class="skill-badges"><span class="badge" data-i18n="badge.agy">Antigravity</span><span class="badge" data-i18n="badge.prompt">Prompt Engineering</span><span class="badge" data-i18n="badge.vscode">VS Code</span><span class="badge" data-i18n="badge.git">Git &amp; GitHub</span></div></div>
+        <!-- Biomedical Engineering -->
+        <div class="skill-card"><h3 class="skill-card-title"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg><span data-i18n="skills.bme.title">Biomedical Engineering</span></h3><p class="skill-desc" data-i18n="skills.bme.desc">Solid grounding in medical device fundamentals, clinical instrumentation, and biomedical hardware.</p><div class="skill-badges"><span class="badge" data-i18n="badge.med.eq">Medical Equipment Fundamentals</span><span class="badge" data-i18n="badge.troubleshoot">Troubleshooting &amp; Maintenance</span><span class="badge" data-i18n="badge.safety">Medical Device Safety</span><span class="badge" data-i18n="badge.ecg">ECG Signal Simulation</span><span class="badge" data-i18n="badge.biosensors">Biosensors</span><span class="badge" data-i18n="badge.soldering">Precision Soldering</span><span class="badge" data-i18n="badge.office">MS Word &amp; Excel</span></div></div>
+        <!-- Professional & Languages -->
+        <div class="skill-card"><h3 class="skill-card-title"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg><span data-i18n="skills.pro.title">Professional &amp; Languages</span></h3><p class="skill-desc" data-i18n="skills.pro.desc">Bilingual communicator with strong soft skills built through academic and clinical environments.</p><div class="skill-badges"><span class="badge" data-i18n="badge.problem">Problem Solving</span><span class="badge" data-i18n="badge.teamwork">Teamwork &amp; Communication</span><span class="badge" data-i18n="badge.time">Time Management</span><span class="badge" data-i18n="badge.adapt">Adaptability &amp; Fast Learner</span><span class="badge" data-i18n="badge.arabic">Arabic: Native</span><span class="badge" data-i18n="badge.english">English: B2 Upper Intermediate</span></div></div>
+      </div>
+
+      <!-- AI Tools Section (ibrahimaher.com list style) -->
+      <div class="tools-section">
+        <h3 class="tools-heading" data-i18n="skills.ai.section">AI TOOLS I USE</h3>
+        <dl class="tools__list">
+          <!-- Claude -->
+          <div class="tool tool--claude">
+            <dt class="tool__name">
+              <span class="tool__mark tool__mark--claude" aria-label="Claude logo">
+                <svg width="22" height="22" viewBox="0 0 256 257" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m50.228 170.321 50.357-28.257.843-2.463-.843-1.361h-2.462l-8.426-.518-28.775-.778-24.952-1.037-24.175-1.296-6.092-1.297L0 125.796l.583-3.759 5.12-3.434 7.324.648 16.202 1.101 24.304 1.685 17.629 1.037 26.118 2.722h4.148l.583-1.685-1.426-1.037-1.101-1.037-25.147-17.045-27.22-18.017-14.258-10.37-7.713-5.25-3.888-4.925-1.685-10.758 7-7.713 9.397.649 2.398.648 9.527 7.323 20.35 15.75L94.817 91.9l3.889 3.24 1.555-1.102.195-.777-1.75-2.917-14.453-26.118-15.425-26.572-6.87-11.018-1.814-6.61c-.648-2.723-1.102-4.991-1.102-7.778l7.972-10.823L71.42 0 82.05 1.426l4.472 3.888 6.61 15.101 10.694 23.786 16.591 32.34 4.861 9.592 2.592 8.879.973 2.722h1.685v-1.556l1.36-18.211 2.528-22.36 2.463-28.776.843-8.1 4.018-9.722 7.971-5.25 6.222 2.981 5.12 7.324-.713 4.73-3.046 19.768-5.962 30.98-3.889 20.739h2.268l2.593-2.593 10.499-13.934 17.628-22.036 7.778-8.749 9.073-9.657 5.833-4.601h11.018l8.1 12.055-3.628 12.443-11.342 14.388-9.398 12.184-13.48 18.147-8.426 14.518.778 1.166 2.01-.194 30.46-6.481 16.462-2.982 19.637-3.37 8.88 4.148.971 4.213-3.5 8.62-20.998 5.184-24.628 4.926-36.682 8.685-.454.324.519.648 16.526 1.555 7.065.389h17.304l32.21 2.398 8.426 5.574 5.055 6.805-.843 5.184-12.962 6.611-17.498-4.148-40.83-9.721-14-3.5h-1.944v1.167l11.666 11.406 21.387 19.314 26.767 24.887 1.36 6.157-3.434 4.86-3.63-.518-23.526-17.693-9.073-7.972-20.545-17.304h-1.36v1.814l4.73 6.935 25.017 37.59 1.296 11.536-1.814 3.76-6.481 2.268-7.13-1.297-14.647-20.544-15.1-23.138-12.185-20.739-1.49.843-7.194 77.448-3.37z" fill="#D97757"/></svg>
+              </span>
+              <span data-i18n="skills.claude.name">Claude</span>
+            </dt>
+            <dd class="tool__use" data-i18n="skills.claude.desc">My development and problem-solving partner for coding, building projects, debugging, and exploring technical ideas.</dd>
+          </div>
+          <!-- ChatGPT -->
+          <div class="tool tool--chatgpt">
+            <dt class="tool__name">
+              <span class="tool__mark tool__mark--chatgpt" aria-label="ChatGPT logo">
+                <svg width="22" height="22" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M37.532 16.87a9.963 9.963 0 0 0-.856-8.184 10.078 10.078 0 0 0-10.855-4.835 9.964 9.964 0 0 0-6.371-3.4 10.079 10.079 0 0 0-10.68 4.994 9.964 9.964 0 0 0-6.675 4.834 10.079 10.079 0 0 0 1.24 11.817 9.965 9.965 0 0 0 .856 8.185 10.079 10.079 0 0 0 10.855 4.835 9.965 9.965 0 0 0 6.371 3.4 10.079 10.079 0 0 0 10.681-4.994 9.965 9.965 0 0 0 6.675-4.835 10.079 10.079 0 0 0-1.241-11.817ZM22.498 37.886a7.474 7.474 0 0 1-4.799-1.735c.061-.033.168-.091.237-.134l7.964-4.6a1.294 1.294 0 0 0 .655-1.134V19.054l3.366 1.944a.12.12 0 0 1 .066.092v9.299a7.505 7.505 0 0 1-7.49 7.496ZM6.392 31.006a7.471 7.471 0 0 1-.894-5.023c.06.036.162.099.237.141l7.964 4.6a1.297 1.297 0 0 0 1.308 0l9.724-5.614v3.888a.12.12 0 0 1-.048.103l-8.051 4.649a7.504 7.504 0 0 1-10.24-2.744ZM4.297 13.62A7.469 7.469 0 0 1 8.2 10.333c0 .068-.004.19-.004.274v9.201a1.294 1.294 0 0 0 .654 1.132l9.723 5.614-3.366 1.944a.12.12 0 0 1-.114.012L7.044 23.86a7.504 7.504 0 0 1-2.747-10.24Zm27.658 6.437-9.724-5.615 3.367-1.943a.121.121 0 0 1 .114-.012l8.048 4.648a7.498 7.498 0 0 1-1.158 13.528v-9.476a1.293 1.293 0 0 0-.647-1.13Zm3.35-5.043c-.059-.037-.162-.099-.236-.141l-7.965-4.6a1.298 1.298 0 0 0-1.308 0l-9.723 5.614v-3.888a.12.12 0 0 1 .048-.103l8.05-4.645a7.497 7.497 0 0 1 11.135 7.763Zm-21.063 6.929-3.367-1.944a.12.12 0 0 1-.065-.092v-9.299a7.497 7.497 0 0 1 12.293-5.756 6.94 6.94 0 0 0-.236.134l-7.965 4.6a1.294 1.294 0 0 0-.654 1.132l-.006 11.225Zm1.829-3.943 4.33-2.501 4.332 2.5v4.999l-4.331 2.5-4.331-2.5V18Z" fill="#F5F5F5"/></svg>
+              </span>
+              <span data-i18n="skills.chatgpt.name">ChatGPT</span>
+            </dt>
+            <dd class="tool__use" data-i18n="skills.chatgpt.desc">My everyday thinking partner for learning, research, brainstorming, explanations, planning, and refining ideas.</dd>
+          </div>
+          <!-- Antigravity -->
+          <div class="tool tool--agy">
+            <dt class="tool__name">
+              <span class="tool__mark tool__mark--agy" aria-label="Antigravity logo">
+                <svg width="22" height="22" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.0777 13.984C14.945 14.6345 16.2458 14.2008 15.0533 13.0084C11.476 9.53949 12.2349 0 7.79033 0C3.34579 0 4.10461 9.53949 0.527295 13.0084C-0.773543 14.3092 0.635692 14.6345 1.50293 13.984C4.86344 11.7076 4.64663 7.69664 7.79033 7.69664C10.934 7.69664 10.7172 11.7076 14.0777 13.984Z" fill="#537FC4"/></svg>
+              </span>
+              <span data-i18n="skills.agy.name">Antigravity</span>
+            </dt>
+            <dd class="tool__use" data-i18n="skills.agy.desc">My agentic AI partner for planning, building, and executing complex software projects with deep context and multi-step workflows.</dd>
+          </div>
+        </dl>
+      </div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-content">
+    <span data-i18n="footer.copy">© 2026 Mohamed Abdulhassan Abbas · Baghdad, Iraq</span>
+    <nav class="footer-links"><a href="index.html" data-i18n="footer.home">Home</a><a href="about.html" data-i18n="footer.about">About</a><a href="experience.html" data-i18n="footer.exp">Experience</a><a href="skills.html" data-i18n="footer.skills">Skills</a><a href="projects.html" data-i18n="footer.projects">Projects</a><a href="resume.html" data-i18n="footer.resume">Resume</a><a href="contact.html" data-i18n="footer.contact">Contact</a></nav>
+    <span data-i18n="footer.built">Built with Antigravity &amp; Pure HTML/CSS</span>
+  </div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

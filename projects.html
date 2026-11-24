@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Mohamed Abbas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow"></div>
+  <header class="navbar"><div class="container nav-container">
+    <a href="index.html" class="nav-brand"><span class="brand-dot"></span><span data-i18n="nav.name">Mohamed Abbas</span></a>
+    <ul class="nav-links"><li><a href="about.html" data-i18n="nav.about">About</a></li><li><a href="experience.html" data-i18n="nav.exp">Experience</a></li><li><a href="skills.html" data-i18n="nav.skills">Skills</a></li><li><a href="projects.html" class="active" data-i18n="nav.projects">Projects</a></li><li><a href="resume.html" data-i18n="nav.resume">Resume</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul>
+    <div class="nav-controls"><button class="lang-toggle" id="langToggle">ع</button><button class="nav-hamburger" id="navHamburger">☰</button></div>
+  </div></header>
+  <main>
+    <section class="section"><div class="container">
+      <p class="section-eyebrow" data-i18n="proj.eyebrow">Work</p>
+      <h1 class="section-title" data-i18n="proj.title">Featured Projects</h1>
+      <p class="section-subtitle" data-i18n="proj.subtitle">Engineering capstone and AI-assisted web development journey</p>
+      <hr class="section-divider">
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-tag" data-i18n="proj.ecg.tag">Graduation Project · Al-Turath</div>
+          <h2 class="project-title" data-i18n="proj.ecg.title">ECG Simulator</h2>
+          <p class="project-desc" data-i18n="proj.ecg.desc">Collaborated with a team of Biomedical Engineering students to design and build a functional ECG Simulator. Gained practical exposure to biomedical signal generation, cardiac waveform simulation, instrumentation design, and collaborative project planning.</p>
+          <div class="project-tech-stack"><span class="tech-item">Biomedical Instrumentation</span><span class="tech-item">Signal Simulation</span><span class="tech-item">Circuit Design</span><span class="tech-item">Teamwork</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag" data-i18n="proj.port.tag">AI-Assisted Web Development</div>
+          <h2 class="project-title" data-i18n="proj.port.title">Personal Portfolio Website</h2>
+          <div class="portfolio-branch-line">
+            <div class="branch-connector"><div class="branch-dot"></div><div class="branch-line"></div><div class="branch-arrow">↓</div></div>
+            <div class="portfolio-cards">
+              <div class="project-card-sub">
+                <div class="project-tag" data-i18n="proj.port.v1.label">v1.0 — Original</div>
+                <p class="project-desc" data-i18n="proj.port.v1.desc">Built using Antigravity and pure HTML5 &amp; CSS3. Features an atmospheric theme, responsive layout, and an accessible presentation of engineering credentials without any third-party frameworks.</p>
+                <div class="project-tech-stack"><span class="tech-item">Antigravity</span><span class="tech-item">HTML5</span><span class="tech-item">CSS3</span></div>
+                <a href="https://cros0.github.io/personal-portfolio/" target="_blank" class="project-link" data-i18n="proj.view.site">View Live Site →</a>
+              </div>
+              <div class="project-card-sub" style="border-color: rgba(220,38,38,0.4);">
+                <div class="project-tag" data-i18n="proj.port.v2.label">v2.0 — Major Redesign (This Site)</div>
+                <p class="project-desc" data-i18n="proj.port.v2.desc">A complete redesign adopting a clean, structured multi-page layout with bilingual Arabic/English support, smooth page transitions, and a dedicated AI tools section. Built with Antigravity.</p>
+                <div class="project-tech-stack"><span class="tech-item">Antigravity</span><span class="tech-item">HTML5</span><span class="tech-item">CSS3</span><span class="tech-item">Vanilla JS</span><span class="tech-item">Bilingual RTL</span></div>
+                <a href="https://github.com/cros0" target="_blank" class="project-link" data-i18n="proj.view.repo">View Repository →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-content">
+    <span data-i18n="footer.copy">© 2026 Mohamed Abdulhassan Abbas · Baghdad, Iraq</span>
+    <nav class="footer-links"><a href="index.html" data-i18n="footer.home">Home</a><a href="about.html" data-i18n="footer.about">About</a><a href="experience.html" data-i18n="footer.exp">Experience</a><a href="skills.html" data-i18n="footer.skills">Skills</a><a href="projects.html" data-i18n="footer.projects">Projects</a><a href="resume.html" data-i18n="footer.resume">Resume</a><a href="contact.html" data-i18n="footer.contact">Contact</a></nav>
+    <span data-i18n="footer.built">Built with Antigravity &amp; Pure HTML/CSS</span>
+  </div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
