@@ -517,3 +517,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+/* ── 7. RESTORE PAGE VISIBILITY ON BACK/FORWARD ─────────────────────────── */
+window.addEventListener('pageshow', () => {
+  document.body.style.opacity = '1';
+  document.body.style.transition = '';
+});
